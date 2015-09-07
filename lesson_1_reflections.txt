@@ -1,0 +1,31 @@
+diff is a command line funciton that allows the user to find the differences between two versions of code.  
+
+This allows for an extremely useful tool that can find small changes in code when a previous version of code was working
+
+
+Keeping old versions of code will allow for easy fixes to mistakes in code and more importantly, allowing the user to see how the code has changed and grown.  Seeing what you have done differently could give you new ideas on how to code something in the future or how to fix problems in code that you are currently working on.
+
+
+I think forcing users to manually save versions of their code through commits is a smart way to keep the programmer aware of the changes they made and why those changes are important to them.  While allowing for an automatic save is much more convenient, it doesn't allow for input from the user to why the changes have been made and when going back to review the older versions, it becomes more difficult to find the chagnes that you have made.
+
+
+
+Because different systems allow for differnet types of file to be saved, it makes sense that programs like google docs does not allow for multiple files to be saved at once becuase the files saved are types of files that would often have nothing to do with each other.  On the other hand, programs like git, that deal specifically with coding files in which multiple files will be interrelated, it makes sense to save all of them together to be able to track how one change in a single file might effect changes in another file.
+
+git log allows you to see all the previous versions of a file in a repoistory and git diff will check the differences in two versions of a file based on their commit id.  It will show the lines added, the lines deleted, and the lines changed.
+
+
+Version control allows you to go back and view working versions of code and check which version started the bug in the code
+
+I would like to start using GIT to create my code for my program seen below.  And on top of that, I would like to assists my brother in his coding endevor.
+
+
+
+USER THOUGHTS:
+I have to admit, finally getting the chances to use the terminal and a text editor such as this is kind of cool.  Learning the different commands for the terminal is something I've wanted to do for a while and it's finally happening.  
+
+After this I'm excited to try and creat my own app that allows me to play a new motivational video from youtube every morning after my alarm goes off.   While this idea is still new and will take a lot of time to accomplish, this is a good first step and hopefully what I learn in the next few weeks and months will help me accomplish this goal.
+
+P.S. 
+while this isn't quite a blog, it is also a start to creating my own website/blog which is another goal i would like to accomplish.  XML design is also on my list of coding that i would like to learn.
+
