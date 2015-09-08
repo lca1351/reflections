@@ -8,16 +8,41 @@ creating a repository alllows you to save multiple files using the commit functi
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+The staging area is the place you decide what needs to commit together and how.  This allows you to be able to catergorize youre codes into logic groups
+
+
+
+
 How can you use the staging area to make sure you have one commit per logical
 change?
+
+By using the staging area, you can view what you have changed compared to what old code says.  It lets you compare against current code and older versions at the same time.  On top of that, you can make sure that you are not commiting something you don't want to the new code
+
+
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+Creating different branches allows of different versions of the code that might not be necessary for the main code.   For example, creating an easy mode, experimental mode, or even a different language for the code to work in.  This allows for changes that do not effect the main code (master code).
+
+
+
+
 How do the diagrams help you visualize the branch structure?
+
+brach structures are like family trees.  You can have branches that are not related but still on a larger branch.  It also alows you to see how certain commits will affect other branches or not effect them.
+
+
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+merging two branches together allows you to add new features to your code after you have completed the feature.  It is shown in the diagram as connecting two branches because it combines the two branches into one, using a shared commit as a reference
+
+
+
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+git does a good job of automatically merging two branches together but allowing for a manual input when the same line has been changed in both files helps protect the user from mistakenly overwritting code with an unwanted change or a less efficient change.
